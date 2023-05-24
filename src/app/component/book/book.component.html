@@ -1,0 +1,19 @@
+<!-- Modal -->
+<div class="modal" *ngIf="showModal">
+  <div class="modal-content">
+    <button class="close-button" (click)="cancel()">&times;</button>
+    <h2 style="color: rgb(203, 157, 70);">Shoppingzone</h2>
+    <p style="margin-top: 50px;">Enter your mobile number</p>
+    <input type="text" [(ngModel)]="mobileNumber" placeholder="Mobile Number" style="margin-bottom: 20px;">
+
+    <div class="buttons">
+      <button (click)="continueToSecondModal()" routerLink="/modal">Continue</button>
+      <button (click)="cancel()">Cancel</button>
+    </div>
+
+    <p style="font-size: 11px;">
+      By clicking Continue, you agree to our
+      <a href="#">Terms and Conditions</a>.
+    </p>
+  </div>
+</div>

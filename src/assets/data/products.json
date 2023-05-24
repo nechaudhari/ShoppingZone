@@ -1,0 +1,16 @@
+[
+    {"id":1, "name":"Jacket", "des":"Men's Winter leather Jackets","price":1500, "image":"./assets/images/products/jacket-5.jpg","type":"men"},
+    {"id":2, "name":"Shirt", "des":"Pure Garment Dyed Cotton Shirt", "price":700, "image":"./assets/images/products/shirt-2.jpg" ,"type":"men"},
+    {"id":3, "name":"Top", "des":"Women's basic pink crop top", "price":1000, "image":"./assets/images/products/clothes-2.jpg","type":"woman"},
+    {"id":13, "name":"Old Spice", "des":"Shampoo, Conditioner & facewash combo", "price":1500, "image":"./assets/images/products/shampoo.jpg" ,"type":"grocery"},
+    {"id":4, "name":"Skirt", "des":"Black Floral Wrap Midi Skirt", "price":400, "image":"./assets/images/products/clothes-4.jpg","type":"women"},
+    {"id":5, "name":"Casual", "des":"Casual Men's Brown Shoes", "price":600, "image":"./assets/images/products/shoe-1.jpg","type":"men"},
+    {"id":6, "name":"Watches", "des":"Pocket watch leather pouch", "price":1800, "image":"./assets/images/products/watch-4.jpg","type":"electronics"},
+    {"id":7, "name":"Watches", "des":"Smart watch Vital plus", "price":2600, "image":"./assets/images/products/watch-2.jpg","type":"electronics"},
+    {"id":8, "name":"Sandle", "des":"Women's party wear Sandle", "price":1000, "image":"./assets/images/products/party-wear-2.jpg","type":"women"},
+    {"id":9, "name":"Jacket", "des":"Men's winter wear leather Jacket", "price":600, "image":"./assets/images/products/jacket-2.jpg","type":"men"},
+    {"id":10, "name":"Shoes", "des":"Trekking & running shoes- black", "price":1800, "image":"./assets/images/products/sports-4.jpg","type":"men"},
+    {"id":11, "name":"Shoes", "des":"Men's leather formal wear shoes", "price":2600, "image":"./assets/images/products/shoe-1_1.jpg","type":"man"},
+    {"id":12, "name":"Shorts", "des":"Better basics french Terry sweatshorts", "price":1000, "image":"./assets/images/products/shorts-2.jpg","type":"man"},
+    {"id":13, "name":"Jacket", "des":"Men's Yarn fleece full-zip Jacket", "price":1900, "image":"./assets/images/products/jacket-6.jpg" ,"type":"men"}
+]

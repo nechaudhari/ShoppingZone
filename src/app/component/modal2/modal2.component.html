@@ -1,0 +1,35 @@
+<div class="modal" >
+    <div class="modal-content">
+ 
+      <button class="back-button" (click)="goBack()">&#8592;</button>
+      <button class="close-button" (click)="cancel()">&times;</button>
+      
+      <h2 style="margin-top: 10%; color: rgb(203, 157, 70); align-items: center; text-align: center;">
+        Welcome to ShoppingZone!</h2>
+     
+  
+
+    <p style="margin-top: 50px;">Enter your Name</p>
+    <input type="text" [(ngModel)]="name" placeholder="Full Name" style="margin-bottom: 15px;">
+        <div>
+            <p>Choose your gender
+                <label>
+                    <input type="radio" name="gender" value="male" style="margin: 5px; margin-left: 20px;"> Male
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="female" style="margin: 10px;"> Female
+                </label>
+            </p>
+        </div>
+
+        <p style="margin-top: 10px;">Enter your Email</p>
+        <input type="email" [(ngModel)]="email" placeholder="Email ID" style="margin-bottom: 15px;" >
+
+        <p style="margin-top: 10px; ">Enter your Password</p>
+        <input type="password" [(ngModel)]="password" placeholder="Password" style="margin-bottom: 30px;">
+        
+
+        <button class="send-otp-button" (click)="sendOTP()">Send OTP</button>
+    </div>
+  </div>
+  

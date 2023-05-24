@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row">
+        <ng-container *ngFor="let item of products">
+            <div class="card col-md-3 mb-4">
+                <img src="{{item.image}}">
+                <h5 style="color: rgb(203, 157, 70); ">{{item.name}}</h5>
+                <div style="height: 50px;"><span>{{item.des}}</span></div>
+                <p><strong>Price: </strong>Rs.{{item.price}}</p>
+                <button class="banner-btn btn-outline-info" routerLink="/book" style="margin-left: 33px;">Buy Now</button>
+            </div>
+        </ng-container>   
+    </div>
+</div>  
+
+
+
+
+
