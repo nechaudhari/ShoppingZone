@@ -8,6 +8,7 @@ import { PageNotFoundComponent } from './component/page-not-found/page-not-found
 import { BookComponent } from './component/book/book.component';
 import { FormsModule } from '@angular/forms';
 import { Modal2Component } from './component/modal2/modal2.component';
+import { FilterPipe } from './pipe/filter.pipe';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { Modal2Component } from './component/modal2/modal2.component';
     routingComponents,
     PageNotFoundComponent,
     BookComponent,
-    Modal2Component
+    Modal2Component,
+    FilterPipe
   ],
 
   imports: [
