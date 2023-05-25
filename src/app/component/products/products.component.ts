@@ -16,6 +16,7 @@ export class ProductsComponent implements OnInit {
 
   public products:any[] =[];
   filteredProducts: Product[] = [];
+  public filteredString:any;
   
   constructor(private _productsService: ProductsService){}
 

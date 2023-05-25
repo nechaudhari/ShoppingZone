@@ -8,18 +8,9 @@ import { SearchService } from 'src/app/service/search.service';
 })
 export class NavbarComponent {
 
-  public searchTerm: string = '';
-
-  constructor(private searchService: SearchService){}
+  constructor(){}
 
   ngOnInit(): void {
       
   }
-  search(event:any){
-    this.searchTerm = (event.target as HTMLInputElement).value;
-    console.log(this.searchTerm);
-    this.searchService.search.next(this.searchTerm);
-  }
-
-
 }

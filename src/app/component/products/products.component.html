@@ -1,7 +1,13 @@
 <div class="container">
     <div class="row">
+        <div class="col-md-12">
+            <input type="search" name="search" class="search-field" [(ngModel)]="filteredString" placeholder="Search product">
+        </div>
+    </div>
+    <div class="row">
         <ng-container *ngFor="let item of products">
             <div class="card col-md-3 mb-4">
+                <div *ngFor="let item of products | filter:filteredString"></div>
                 <img src="{{item.image}}">
                 <h5 style="color: rgb(203, 157, 70); ">{{item.name}}</h5>
                 <div style="height: 50px;"><span>{{item.des}}</span></div>
