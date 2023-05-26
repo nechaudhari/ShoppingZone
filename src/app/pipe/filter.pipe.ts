@@ -5,24 +5,17 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class FilterPipe implements PipeTransform {
 
-  transform(value :any, filteredString: string) {
+  transform(value :any, filterString: string) {
     if(value.length === 0){
       return value;
     }
     const products=[];
     for(const item of value ){
-      if(item['name'] === filteredString){
-        console.log('Item Name:', item['name']);
-    
+      if(item['name'] === filterString){
         products.push(item);
       }
     }
-    console.log('products size:', products.length);
+   
     return products;
   }
-    
-
-    
-  
-
 }
